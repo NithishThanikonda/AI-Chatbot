@@ -1,2 +1,2 @@
-# AI Chatbot - Amazon HackOn - Code_Crew
+# AI Chatbot
 Prototype of AI Chatbot.
