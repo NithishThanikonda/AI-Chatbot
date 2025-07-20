@@ -3,7 +3,7 @@ from chatbot import get_chatbot_response
 from flask_cors import CORS
 
 app = Flask(__name__)
-cors=CORS(app, origins='*')  # This will enable Cross-Origin Resource Sharing for all routes
+cors = CORS(app, origins='*')  # Enable CORS for all routes
 
 @app.route('/chatbot', methods=['POST'])
 def chatbot():

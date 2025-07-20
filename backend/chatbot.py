@@ -8,6 +8,9 @@ import threading
 
 import logging
 logging.getLogger("transformers.modeling_utils").setLevel(logging.ERROR)
+logging.getLogger("transformers.configuration_utils").setLevel(logging.CRITICAL)
+logging.getLogger("transformers.modeling_utils").propagate = False
+
 
 # Suppress FutureWarning
 warnings.filterwarnings("ignore", category=FutureWarning, module="huggingface_hub.file_download")
